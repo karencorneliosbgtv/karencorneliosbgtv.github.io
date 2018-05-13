@@ -3,51 +3,73 @@ others you can modify as they stand, and if you have time,
 there are definitely some properties you should add!*/
 
 html {
-    height: 100%;
-  }
+        background: url(Images/padded-cell-2.jpg) no-repeat center center fixed; 
+        -webkit-background-size: cover;
+        -moz-background-size: cover;
+        -o-background-size: cover;
+        background-size: cover;
+        height: 100%;
+    }
   body {
      width: 800px;
      height: 100%;
   }
 
   header {
-      background-color: red;
-      padding: 5px;
-      font-size: 15;
+      background-color: #ffffff;
+      padding-left: 10px;
+      font-size: 26px;
       display: block;
-  }
-  nav {
-      float: left;
+      border: 10px solid #000000;
+      margin-bottom: 20px;
+      text-align: center;
       width: 100%;
   }
+  nav {
+    background-color: #333;
+    overflow: hidden;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+  }
   nav ul {
-      padding: 2;
-      float: left;
-      border-bottom: 1;
-      list-style-type: none;
-  }
-  nav li {
-      float: left;
-  }
-  nav li a {
-      display: block;
-      height: 25px;
-      padding: 12px 18px 8px 18px;
-      vertical-align: middle;
-  }
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #333;
+}
+
+nav li {
+    float: left;
+}
+
+nav li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+/* Change the link color to #111 (black) on hover */
+nav li a:hover {
+    background-color: #111;
+}
   a {
-      color: rosybrown;
+      color: ;
   }
   section {
       width: 73%;
       display: inline-block;
       float: left;
+      font-family: Arial, Helvetica, sans-serif;
   }
   aside {
       width: 17%;
       display: inline-block;
-      background-color: purple;
-      padding: 2;
+      background-color:;
+      padding:;
       min-height: 100%;
   }
   aside ul {
@@ -55,8 +77,8 @@ html {
   }
   footer {
       width: 790px;
-      background-color: peru;
-      color: red;
+      background-color:;
+      color:;
       clear: both;
       display: block;
   }

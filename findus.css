@@ -6,6 +6,7 @@ there are definitely some properties you should add!*/
       height: 100%;
     }
     body {
+       width: 800px;
        height: 100%;
        background-color:goldenrod;
     }
@@ -17,12 +18,17 @@ there are definitely some properties you should add!*/
         display: block;
     }
     nav {
+        float: left;
         width: 100%;
     }
     nav ul {
         padding: ;
+        float: left;
         border-bottom: ;
         list-style-type: none;
+    }
+    nav li {
+        float: left;
     }
     nav li a {
         display: block;
@@ -38,10 +44,7 @@ there are definitely some properties you should add!*/
     margin: 20px;
     text-align: center;
     }
-    article {
-        width: 100%;
-        display: inline-block;
-    }
+
     a {
         color: ;
     }
